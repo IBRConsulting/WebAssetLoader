@@ -1,0 +1,29 @@
+{
+	"name": "ibr/web-asset-loader",
+	"type": "library",
+	"description": "Nette extension for loading JS and CSS into template.",
+	"homepage": "https://github.com/IBRConsulting/WebAssetLoader",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "IBR Consulting, s.r.o.",
+			"email": "info@ibrconsulting.cz",
+			"homepage": "http://www.ibrconsulting.cz/"
+		},
+		{
+			"name": "Vojtěch Lank",
+			"email": "vojtech.lank@ibrconsulting.cz",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"IBR\\WebAssetLoader\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">= 5.4.0",
+		"nette/application": "~2.3",
+		"nette/di": "~2.3"
+	}
+}

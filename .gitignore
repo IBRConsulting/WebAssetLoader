@@ -1,0 +1,15 @@
+# Created by https://www.gitignore.io/api/netbeans
+
+### NetBeans ###
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+### Composer ###
+vendor/
+composer.lock
