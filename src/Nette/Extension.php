@@ -15,6 +15,9 @@ use \Nette\DI\CompilerExtension;
 
 class Extension extends CompilerExtension {
 
+	/**
+	 * @var array
+	 */
 	public $defaults = [
 		'js' => [],
 		'css' => []

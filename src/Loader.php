@@ -15,7 +15,7 @@ use \Nette\Application\UI\Control;
 class Loader extends Control {
 
 	/**
-	  @var array
+	 * @var array
 	 */
 	private $assets;
 
